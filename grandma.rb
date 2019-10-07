@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(string)
-  if string.Upcase == true
+  if string.isUpper? == true
     puts "NO, NOT SINCE 1938!"
   elsif string == "I LOVE YOU SO MUCH GRANDMA!"
     puuts "I LOVE YOU TOO PUMPKIN!"
